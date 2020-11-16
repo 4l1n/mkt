@@ -380,7 +380,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Heebo", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 a {
@@ -397,7 +397,6 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   clear: both;
   color: #FFFFFF;
-  font-family: "Playfair Display", serif;
   font-weight: 700;
 }
 
@@ -563,7 +562,7 @@ pre .h3,
 pre .h4,
 pre .h5,
 pre .h6 {
-  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-family: "Nunito", sans-serif;
 }
 
 pre, code, kbd, tt, var {
@@ -582,7 +581,7 @@ pre {
 }
 
 code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
   padding: 2px 4px;
 }
@@ -1557,6 +1556,8 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -1586,7 +1587,7 @@ label {
 }
 
 .feature-title {
-  font-family: "Heebo", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
 }
 
@@ -1638,6 +1639,7 @@ label {
 }
 
 .media .section-paragraph {
+  color: white;
   margin-bottom: 48px;
 }
 
